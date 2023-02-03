@@ -14,9 +14,13 @@
 ## Skills ⚡️
 [![](https://img.shields.io/badge/React-5ed4f4?style=for-the-badge&logo=react&logoColor=22272E&labelColor=f0f0f0)](https://reactjs.org/)
 ![](https://img.shields.io/badge/JavaScript-EFD948?style=for-the-badge&logo=javascript&logoColor=22272E&labelColor=f0f0f0)
+![](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=22272E&labelColor=f0f0f0)
 [![](https://img.shields.io/badge/Mongodb-53A34E?style=for-the-badge&logo=mongodb&logoColor=22272E&labelColor=f0f0f0)](https://www.mongodb.com/)
 [![](https://img.shields.io/badge/SASS-CF6B9E?style=for-the-badge&logo=sass&logoColor=22272E&labelColor=f0f0f0)](https://sass-lang.com/)
+[![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=22272E&labelColor=f0f0f0)](https://sass-lang.com/)
 [![](https://img.shields.io/badge/flutter-3399ff?style=for-the-badge&logo=flutter&logoColor=22272E&labelColor=f0f0f0)](https://flutter.dev/)
+[![](https://img.shields.io/badge/SPRING-6DB33F?style=for-the-badge&logo=spring&logoColor=22272E&labelColor=f0f0f0)](https://flutter.dev/)
+[![](https://img.shields.io/badge/SPRINGBOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=22272E&labelColor=f0f0f0)](https://flutter.dev/)
 
 ## Soft Skills ⚡️
 ![](https://img.shields.io/badge/Decision%20making-2D333B?style=for-the-badge)
