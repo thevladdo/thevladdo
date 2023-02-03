@@ -32,10 +32,9 @@
 ![](https://img.shields.io/badge/leadership-2D333B?style=for-the-badge)
 ![](https://img.shields.io/badge/stress%20resistance-2D333B?style=for-the-badge)
 ![](https://img.shields.io/badge/Emotional%20intelligence-2D333B?style=for-the-badge)
+![](https://img.shields.io/badge/Presentation%20skills-2D333B?style=for-the-badge)
 ![](https://img.shields.io/badge/creativity-2D333B?style=for-the-badge)
 ![](https://img.shields.io/badge/Time%20management%20and%20organization-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Communication%20skills-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Presentation%20skills-2D333B?style=for-the-badge)
 
 
  ## More details about dev(laddo) 🧲
