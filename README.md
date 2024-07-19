@@ -38,11 +38,11 @@
 
 
  ## More details about dev(laddo) 🧲
-<details>
+<!--<details>
     <summary> Github Stats 🫡</summary>
   <br>
 <img align="center" alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=thevladdo&count_private=true&show_icons=true&theme=dark" />
-</details>
+</details>-->
 <details>
     <summary> Most Used Languages 👀</summary>
   <br>
