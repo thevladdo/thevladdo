@@ -1,51 +1,49 @@
-
 <h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width=27px height=27px></img> Hi, my name is Vlad 🧛🏻</h1>
 
 <p align="center">
   <img src="https://media.giphy.com/media/487L0pNZKONFN01oHO/giphy.gif" width="150px" title="developer">
 </p>
 
+---
 
 ## My Projects 💻
-- [Dev Portfolio](https://thevladdo.netlify.app) - My personal website
-- [RAG Backend](https://github.com/thevladdo/rag-backend) - Custom RAG with Pinecone Vector DB and OpenAI
-- [AR Industrial Maintenance](https://github.com/thevladdo/AR_Industrial_Maintenance) - Flutter Mobile AR Application
-- [Smart Chalet](https://github.com/thevladdo/Smart_Chalet) - Flutter Mobile Application
+
+- [Dev Portfolio](https://thevladdo.netlify.app) – My personal website
+- [RAG Backend](https://github.com/thevladdo/rag-backend) – Custom RAG with Pinecone Vector DB & OpenAI
+- [AR Industrial Maintenance](https://github.com/thevladdo/AR_Industrial_Maintenance) – Flutter Mobile AR Application
+- [Smart Chalet](https://github.com/thevladdo/Smart_Chalet) – Flutter Mobile Application
+
+---
 
 ## Skills ⚡️
-[![](https://img.shields.io/badge/React-5ed4f4?style=for-the-badge&logo=react&logoColor=22272E&labelColor=f0f0f0)](https://reactjs.org/)
-![](https://img.shields.io/badge/JavaScript-EFD948?style=for-the-badge&logo=javascript&logoColor=22272E&labelColor=f0f0f0)
-![](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=22272E&labelColor=f0f0f0)
-[![](https://img.shields.io/badge/Mongodb-53A34E?style=for-the-badge&logo=mongodb&logoColor=22272E&labelColor=f0f0f0)](https://www.mongodb.com/)
-[![](https://img.shields.io/badge/SASS-CF6B9E?style=for-the-badge&logo=sass&logoColor=22272E&labelColor=f0f0f0)](https://sass-lang.com/)
-![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=22272E&labelColor=f0f0f0)
-[![](https://img.shields.io/badge/flutter-3399ff?style=for-the-badge&logo=flutter&logoColor=22272E&labelColor=f0f0f0)](https://flutter.dev/)
-[![](https://img.shields.io/badge/SPRING-6DB33F?style=for-the-badge&logo=spring&logoColor=22272E&labelColor=f0f0f0)](https://spring.io)
-[![](https://img.shields.io/badge/DART-0175C2?style=for-the-badge&logo=dart&logoColor=22272E&labelColor=f0f0f0)](https://dart.dev/)
-[![](https://img.shields.io/badge/SPRINGBOOT-6DB33F?style=for-the-badge&logo=springboot&logoColor=22272E&labelColor=f0f0f0)](https://spring.io/projects/spring-boot)
 
-## Soft Skills ⚡️
-![](https://img.shields.io/badge/Decision%20making-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Problem%20solving-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Teamwork-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Communication%20skills-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/commitment-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/leadership-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/stress%20resistance-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Emotional%20intelligence-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Presentation%20skills-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/creativity-2D333B?style=for-the-badge)
-![](https://img.shields.io/badge/Time%20management%20and%20organization-2D333B?style=for-the-badge)
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,js,bootstrap,html,css,scss" title="Frontend"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,python,docker,git" title="Backend"/>
+  <img src="https://skillicons.dev/icons?i=flutter,dart" title="Mobile"/>
+  <img src="https://skillicons.dev/icons?i=figma" title="UX/UI"/>
+</p>
+
+- **React, JavaScript, Bootstrap, CSS, SCSS**
+- **Node.js, Python, Docker**
+- **Flutter, Dart**
+- **OpenAI API, Pinecone, LangChain (GenAI, RAG)**
+- **Git, GitHub, Figma**
+- **Accessibility & WCAG, Agile, REST APIs**
+
+---
+
+## Soft Skills 🤝
+
+<p>
+  <img src="https://img.shields.io/badge/Product%20Ownership-560bad?style=flat&logo=undefined&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Stakeholder%20Management-005f73?style=flat"/>
+  <img src="https://img.shields.io/badge/Agile%2FScrum%20Teamwork-94d2bd?style=flat"/>
+  <img src="https://img.shields.io/badge/UX%2FUI%20Design-f9c74f?style=flat"/>
+  <img src="https://img.shields.io/badge/Technical%20Mentoring-254441?style=flat"/>
+  <img src="https://img.shields.io/badge/Problem%20Solving-d62828?style=flat"/>
+  <img src="https://img.shields.io/badge/Accessibility%20Expert-0a9396?style=flat"/>
+  <img src="https://img.shields.io/badge/Multilingual%20(IT%2CEN%2CRO)-0077b6?style=flat"/>
+</p>
 
 
- ## More details about dev(laddo) 🧲
-<!--<details>
-    <summary> Github Stats 🫡</summary>
-  <br>
-<img align="center" alt="Github Stats" src="https://github-readme-stats.vercel.app/api?username=thevladdo&count_private=true&show_icons=true&theme=dark" />
-</details>-->
-<details>
-    <summary> Most Used Languages 👀</summary>
-  <br>
-<img align="center" alt="Most Used" src="https://github-readme-stats.vercel.app/api/top-langs/?username=thevladdo&theme=dark&layout=compact" />
-</details>
