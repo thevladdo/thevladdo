@@ -8,7 +8,7 @@
 
 ## My Projects 💻
 
-- [Dev Portfolio](https://thevladdo.netlify.app) – My personal website
+- [Dev Portfolio](https://thevladdo.github.io) – My personal website
 - [RAG Backend](https://github.com/thevladdo/rag-backend) – Custom RAG with Pinecone Vector DB & OpenAI
 - [AR Industrial Maintenance](https://github.com/thevladdo/AR_Industrial_Maintenance) – Flutter Mobile AR Application
 - [Smart Chalet](https://github.com/thevladdo/Smart_Chalet) – Flutter Mobile Application
