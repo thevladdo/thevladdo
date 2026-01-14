@@ -9,9 +9,9 @@
 ## My Projects 💻
 
 - [Dev Portfolio](https://thevladdo.github.io) – My personal website
+- [GenUI Framework](https://github.com/thevladdo/genui-framework) – A full-stack framework for building AI-powered, profile-aware, dynamically generated UI components
 - [RAG Backend](https://github.com/thevladdo/rag-backend) – Custom RAG with Pinecone Vector DB & OpenAI
 - [AR Industrial Maintenance](https://github.com/thevladdo/AR_Industrial_Maintenance) – Flutter Mobile AR Application
-- [Smart Chalet](https://github.com/thevladdo/Smart_Chalet) – Flutter Mobile Application
 
 ---
 
