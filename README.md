@@ -1,49 +1,87 @@
-<h1 align="center"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width=27px height=27px></img> Hi, my name is Vlad 🧛🏻</h1>
+<h1 align="center">Vlad Dogariu</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/487L0pNZKONFN01oHO/giphy.gif" width="150px" title="developer">
+  <b>GenAI Solution Architect &amp; Front-End Engineer</b><br>
+  I build AI systems that survive contact with production.
+</p>
+
+<p align="center">
+  <a href="https://thevladdo.github.io/">Portfolio</a> ·
+  <a href="https://www.linkedin.com/in/vlad-dogariu">LinkedIn</a> ·
+  <a href="https://thevladdo.github.io/genui-framework/">Live demo</a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/thevladdo/thevladdo/main/genui-hero.svg" width="100%" alt="One GenUI zone declaration branching into three user segments, each assembling a different interface layout">
 </p>
 
 ---
 
-## My Projects 💻
+## GenUI Framework
 
-- [Dev Portfolio](https://thevladdo.github.io) – My personal website
-- [GenUI Framework](https://github.com/thevladdo/genui-framework) – A full-stack framework for building AI-powered, profile-aware, dynamically generated UI components
-- [RAG Backend](https://github.com/thevladdo/rag-backend) – Custom RAG with Pinecone Vector DB & OpenAI
-- [AR Industrial Maintenance](https://github.com/thevladdo/AR_Industrial_Maintenance) – Flutter Mobile AR Application
+Most GenAI demos die at the pilot. Impressive on a laptop, unshippable in front of a legal team. I wrote GenUI to find out what that gap actually consists of, and it comes down to 3 things. None of them is the model.
+
+| The uncomfortable part                                                                                                                          | What I did about it                                                                                                                                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| One LLM call per user, per request. That's a bill, not an architecture, and every AI-powered UI demo quietly assumes someone else is paying it. | **Segment cache.** Users collapse into deterministic segments, one generation per segment, stale-while-revalidate with single-flight. The LLM becomes an offline ranker instead of something sitting in the request path.                 |
+| A prompt asking the model not to invent links is a hope with good grammar.                                                                      | **Output guarantees.** URL whitelist, numeric grounding, per-tenant content policy, pinned content checked against the real output. Enforced by the system and written up in a document a customer's legal team can attach to a contract. |
+| "Does personalization work?" usually gets answered with a vibe.                                                                                 | **Holdout and z-test.** Control arm, CTR per arm, uplift with significance. Under 100 impressions per arm it calls the result preliminary noise instead of inventing a win.                                                               |
+
+Built with React 18 + TypeScript, FastAPI, Qdrant, Redis. Provider-agnostic by design (OpenAI, Anthropic, Gemini, RunPod, any OpenAI-compatible endpoint): bring your own key, bring your own engine. Ships on-prem, one deployment per customer, multi-tenant.
+
+<p align="center">
+  <a href="https://doi.org/10.5281/zenodo.18237228"><img src="https://zenodo.org/badge/1133794652.svg" alt="DOI"></a>
+  <a href="https://github.com/thevladdo/genui-framework/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/thevladdo/genui-framework/releases"><img src="https://img.shields.io/github/v/release/thevladdo/genui-framework?color=success" alt="Release"></a>
+  <a href="https://github.com/thevladdo/genui-framework/stargazers"><img src="https://img.shields.io/github/stars/thevladdo/genui-framework?style=flat" alt="Stars"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/thevladdo/genui-framework"><b>Repository</b></a> ·
+  <a href="https://thevladdo.github.io/genui-framework/"><b>Live demo</b></a> ·
+  <a href="https://github.com/thevladdo/genui-framework/blob/main/deploy/OUTPUT-GUARANTEES.md"><b>Output guarantees</b></a>
+</p>
 
 ---
 
-## Skills ⚡️
+## Other things I've built
 
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,bootstrap,html,css,scss" title="Frontend"/>
-  <img src="https://skillicons.dev/icons?i=nodejs,python,docker,git" title="Backend"/>
-  <img src="https://skillicons.dev/icons?i=flutter,dart" title="Mobile"/>
-  <img src="https://skillicons.dev/icons?i=figma" title="UX/UI"/>
-</p>
+[**rag-backend**](https://github.com/thevladdo/rag-backend) is a custom RAG pipeline on Pinecone and OpenAI, from before I got opinionated about vector stores.
 
-- **React, JavaScript, Bootstrap, CSS, SCSS**
-- **Node.js, Python, Docker**
-- **Flutter, Dart**
-- **OpenAI API, Pinecone, LangChain (GenAI, RAG)**
-- **Git, GitHub, Figma**
-- **Accessibility & WCAG, Agile, REST APIs**
+[**AR Industrial Maintenance**](https://github.com/thevladdo/AR_Industrial_Maintenance) puts maintenance instructions in augmented reality, because reading a PDF manual with your hands inside a machine doesn't work.
+
+[**Dev Portfolio**](https://thevladdo.github.io) is my corner of the web.
 
 ---
 
-## Soft Skills 🤝
+<details>
+<summary><b>What I actually work with</b></summary>
 
-<p>
-  <img src="https://img.shields.io/badge/Product%20Ownership-560bad?style=flat&logo=undefined&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Stakeholder%20Management-005f73?style=flat"/>
-  <img src="https://img.shields.io/badge/Agile%2FScrum%20Teamwork-94d2bd?style=flat"/>
-  <img src="https://img.shields.io/badge/UX%2FUI%20Design-f9c74f?style=flat"/>
-  <img src="https://img.shields.io/badge/Technical%20Mentoring-254441?style=flat"/>
-  <img src="https://img.shields.io/badge/Problem%20Solving-d62828?style=flat"/>
-  <img src="https://img.shields.io/badge/Accessibility%20Expert-0a9396?style=flat"/>
-  <img src="https://img.shields.io/badge/Multilingual%20(IT%2CEN%2CRO)-0077b6?style=flat"/>
+<br>
+
+**AI / GenAI**: RAG architectures (Qdrant, Pinecone, LlamaCloud) · multi-agent systems (Datapizza AI, Agno) · provider-agnostic LLM integration (RunPod, OpenAI, Anthropic, Gemini) · structured output and schema validation · regression testing on model output
+
+**Backend**: Python, FastAPI · Redis · Docker · headless Drupal
+
+**Frontend**: React, TypeScript, JavaScript · GSAP motion design · WCAG 2.2 / EN 301 549 accessibility · design systems and CSS-token theming
+
+**Mobile**: React Native
+
+</details>
+
+<details>
+<summary><b>The short version of me</b></summary>
+
+<br>
+
+I lead a tech team at [Kapusons](https://www.kapusons.it), taking GenAI from proof of concept to production for enterprise clients: insurance, corporate portals, document extraction. I teach AI at university on the side.
+
+I care about accessibility more than most engineers do. And I think the interesting problems in AI right now sit on the boring side of the stack: what it costs, and how you prove it worked.
+
+</details>
+
+---
+
+<p align="center">
+  <sub>Open to conversations about Generative UI, RAG in production, and AI in regulated industries.</sub>
 </p>
-
-

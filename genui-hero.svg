@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-label="One GenUI zone declaration branching into three user segments, each assembling a different interface layout">
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .sans { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    .dim  { fill: #8b8f98; }
+    .acc  { fill: #4b8cf5; }
+
+    .panel  { fill: #12131a; stroke: #ffffff1a; stroke-width: 1; }
+    .card   { fill: #ffffff0d; stroke: #ffffff1a; stroke-width: 1; }
+    .bar    { fill: #4b8cf5; }
+    .line   { fill: #ffffff26; }
+    .lineA  { fill: #4b8cf566; }
+    .btn    { fill: #4b8cf5; }
+    .btnO   { fill: none; stroke: #ffffff33; stroke-width: 1; }
+
+    .in { opacity: 0; animation: in .55s cubic-bezier(.2,.7,.3,1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+    .draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 1s ease-out both; }
+    @keyframes draw { to { stroke-dashoffset: 0; } }
+
+    .pulse { animation: pulse 2.6s ease-in-out 3.6s infinite; }
+    @keyframes pulse { 0%,100% { opacity: .6; } 50% { opacity: 1; } }
+
+    .flow { animation: flow 2.8s linear 3.2s infinite; }
+    @keyframes flow { 0% { opacity: 0; } 15% { opacity: 1; } 100% { opacity: 0; transform: translateY(70px); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .in, .draw, .pulse { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; }
+      .flow { animation: none !important; opacity: 0 !important; }
+    }
+  </style>
+
+  <rect x="0" y="0" width="1200" height="430" rx="18" fill="#0a0a0c" stroke="#ffffff14"/>
+
+  <!-- zone declaration -->
+  <g class="in" style="animation-delay:.1s">
+    <rect x="430" y="34" width="340" height="42" rx="10" fill="#ffffff0a" stroke="#ffffff1f"/>
+    <text class="mono" x="600" y="61" text-anchor="middle" font-size="17" fill="#dfe3ea">&lt;GenUIZone zoneId=<tspan class="acc">"homepage"</tspan> /&gt;</text>
+  </g>
+
+  <!-- branches -->
+  <g fill="none" stroke="#ffffff2e" stroke-width="1.5">
+    <path class="draw" style="animation-delay:.6s" pathLength="1" d="M600 80 C600 124 225 116 225 166"/>
+    <path class="draw" style="animation-delay:.7s" pathLength="1" d="M600 80 L600 166"/>
+    <path class="draw" style="animation-delay:.8s" pathLength="1" d="M600 80 C600 124 975 116 975 166"/>
+  </g>
+  <g class="in" style="animation-delay:1.5s" fill="#ffffff4d">
+    <path d="M225 174 l-5.5 -10 h11 z"/><path d="M600 174 l-5.5 -10 h11 z"/><path d="M975 174 l-5.5 -10 h11 z"/>
+  </g>
+  <g class="flow" fill="#4b8cf5">
+    <circle cx="600" cy="92" r="3"/>
+  </g>
+
+  <!-- ============ PANEL 1 : developer ============ -->
+  <g class="in" style="animation-delay:1.0s">
+    <rect class="panel" x="55" y="180" width="340" height="206" rx="14"/>
+  </g>
+  <g class="in" style="animation-delay:1.25s">
+    <text class="mono acc" x="71" y="208" font-size="13">role=developer | eng=high</text>
+  </g>
+  <g class="in" style="animation-delay:1.55s">
+    <rect class="card" x="71" y="222" width="148" height="66" rx="9"/>
+    <rect class="lineA" x="83" y="234" width="34" height="8" rx="4"/>
+    <rect class="line" x="83" y="250" width="112" height="7" rx="3.5"/>
+    <rect class="line" x="83" y="263" width="76" height="7" rx="3.5"/>
+  </g>
+  <g class="in" style="animation-delay:1.7s">
+    <rect class="card" x="231" y="222" width="148" height="66" rx="9"/>
+    <rect class="lineA" x="243" y="234" width="28" height="8" rx="4"/>
+    <rect class="line" x="243" y="250" width="104" height="7" rx="3.5"/>
+    <rect class="line" x="243" y="263" width="88" height="7" rx="3.5"/>
+  </g>
+  <g class="in" style="animation-delay:1.85s">
+    <rect class="card" x="71" y="296" width="148" height="66" rx="9"/>
+    <rect class="lineA" x="83" y="308" width="40" height="8" rx="4"/>
+    <rect class="line" x="83" y="324" width="96" height="7" rx="3.5"/>
+    <rect class="line" x="83" y="337" width="68" height="7" rx="3.5"/>
+  </g>
+  <g class="in" style="animation-delay:2.0s">
+    <rect class="card" x="231" y="296" width="148" height="66" rx="9"/>
+    <rect class="lineA" x="243" y="308" width="30" height="8" rx="4"/>
+    <rect class="line" x="243" y="324" width="110" height="7" rx="3.5"/>
+    <rect class="line" x="243" y="337" width="72" height="7" rx="3.5"/>
+  </g>
+
+  <!-- ============ PANEL 2 : investor ============ -->
+  <g class="in" style="animation-delay:1.1s">
+    <rect class="panel" x="430" y="180" width="340" height="206" rx="14"/>
+  </g>
+  <g class="in" style="animation-delay:1.35s">
+    <text class="mono acc" x="446" y="208" font-size="13">role=investor | int=esg</text>
+  </g>
+  <g class="in" style="animation-delay:1.65s">
+    <rect class="card" x="446" y="222" width="308" height="98" rx="9"/>
+    <rect class="line" x="460" y="234" width="86" height="7" rx="3.5"/>
+    <rect class="bar" x="460" y="286" width="26" height="22" rx="3"/>
+    <rect class="bar" x="496" y="272" width="26" height="36" rx="3"/>
+    <rect class="bar" x="532" y="278" width="26" height="30" rx="3"/>
+    <rect class="bar" x="568" y="258" width="26" height="50" rx="3"/>
+    <rect class="bar" x="604" y="264" width="26" height="44" rx="3"/>
+    <rect class="bar" x="640" y="248" width="26" height="60" rx="3"/>
+    <rect class="bar" x="676" y="238" width="26" height="70" rx="3"/>
+    <rect class="bar" x="712" y="254" width="26" height="54" rx="3"/>
+  </g>
+  <g class="in" style="animation-delay:1.9s">
+    <rect class="card" x="446" y="328" width="308" height="34" rx="8"/>
+    <rect class="lineA" x="458" y="341" width="8" height="8" rx="4"/>
+    <rect class="line" x="476" y="341" width="180" height="7" rx="3.5"/>
+  </g>
+
+  <!-- ============ PANEL 3 : anon ============ -->
+  <g class="in" style="animation-delay:1.2s">
+    <rect class="panel" x="805" y="180" width="340" height="206" rx="14"/>
+  </g>
+  <g class="in" style="animation-delay:1.45s">
+    <text class="mono acc" x="821" y="208" font-size="13">anon</text>
+  </g>
+  <g class="in" style="animation-delay:1.75s">
+    <rect class="card" x="821" y="222" width="308" height="94" rx="9"/>
+    <rect class="line" x="881" y="248" width="188" height="11" rx="5.5"/>
+    <rect class="line" x="911" y="268" width="128" height="7" rx="3.5"/>
+    <rect class="line" x="931" y="283" width="88" height="7" rx="3.5"/>
+  </g>
+  <g class="in" style="animation-delay:2.05s">
+    <rect class="btn" x="821" y="326" width="148" height="36" rx="8"/>
+    <rect x="861" y="341" width="68" height="7" rx="3.5" fill="#0a0a0c" opacity=".75"/>
+    <rect class="btnO" x="981" y="326" width="148" height="36" rx="8"/>
+    <rect class="line" x="1021" y="341" width="68" height="7" rx="3.5"/>
+  </g>
+
+  <!-- footer -->
+  <g class="in" style="animation-delay:2.5s">
+    <text class="sans dim" x="55" y="412" font-size="14">Same zone declaration. A different interface per segment.</text>
+  </g>
+  <g class="in" style="animation-delay:3.2s">
+    <g class="pulse">
+      <rect x="900" y="394" width="245" height="26" rx="13" fill="#4b8cf51f" stroke="#4b8cf54d"/>
+      <circle cx="919" cy="407" r="3.5" fill="#4b8cf5"/>
+      <text class="mono acc" x="933" y="411" font-size="12">cache: fresh, 0 LLM calls</text>
+    </g>
+  </g>
+</svg>
